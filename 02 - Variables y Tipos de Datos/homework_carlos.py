@@ -36,6 +36,7 @@ print(type(true_booleano))
 
 # 10) Asignar a una variable, la suma de un número entero y otro decimal
 suma_entero_decimal = 10 + 15.5
+print(suma_entero_decimal)
 # 11) Realizar una operación de suma de números complejos
 num_complejo2 = 4 + 12j
 num_complejo3 = 8 + 27j
@@ -78,7 +79,7 @@ print(2 == "2")
 # 21) Utilizar las funciones de cambio de tipo de dato, para que la validación del punto 20 resulte verdadera
 print(2 == int("2"))
 # 22) ¿Por qué arroja error el siguiente cambio de tipo de datos? a = float('3,8')
-a = "3,8"
+a = "3.8"
 print(f'Arroja error porque {a} está representado como string y no como número ')
 
 # 23) Crear una variable con el valor 3, y utilizar el operador '-=' para modificar su contenido
