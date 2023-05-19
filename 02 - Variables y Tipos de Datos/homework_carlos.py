@@ -79,8 +79,10 @@ print(2 == "2")
 # 21) Utilizar las funciones de cambio de tipo de dato, para que la validación del punto 20 resulte verdadera
 print(2 == int("2"))
 # 22) ¿Por qué arroja error el siguiente cambio de tipo de datos? a = float('3,8')
-a = "3.8"
-print(f'Arroja error porque {a} está representado como string y no como número ')
+var_con_coma = "3,8"
+var_convertida = var_con_coma.replace(',','.')
+var_con_punto = float(var_convertida)
+print(f'Arroja error porque {var_con_punto} estaba representado con , y no con . ')
 
 # 23) Crear una variable con el valor 3, y utilizar el operador '-=' para modificar su contenido
 var = 3
